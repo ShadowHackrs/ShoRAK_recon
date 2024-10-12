@@ -1,4 +1,4 @@
-![imsage alt]([https://github.com/ShadowHackrs/ShoRAK_recon/blob/353d34fd869ae51b88acf27cb976fda47ee0115b/Screenshot%202024-10-12%20063411.png)
+![imsage alt](https://github.com/ShadowHackrs/ShoRAK_recon/blob/353d34fd869ae51b88acf27cb976fda47ee0115b/Screenshot%202024-10-12%20063411.png)
 
 # ShoRAK_recon
 ShoRAK Recon is a comprehensive tool designed for vulnerability discovery and exploitation, tailored for penetration testers and bug bounty hunters. It integrates multiple well-known cybersecurity tools to automate various phases of security testing and vulnerability exploitation.
