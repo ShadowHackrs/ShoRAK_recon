@@ -2,12 +2,6 @@
 ShoRAK Recon is a comprehensive tool designed for vulnerability discovery and exploitation, tailored for penetration testers and bug bounty hunters. It integrates multiple well-known cybersecurity tools to automate various phases of security testing and vulnerability exploitation.
 Here’s a complete guide for documenting your tool and uploading it to GitHub:
 
-### 1. **Tool Documentation**
-#### **Tool Name**: Shadow Recon
-
-#### **Description**:
-Shadow Recon is a comprehensive tool designed for vulnerability discovery and exploitation, tailored for penetration testers and bug bounty hunters. It integrates multiple well-known cybersecurity tools to automate various phases of security testing and vulnerability exploitation.
-
 #### **Tools Integrated**:
 - **Subfinder**: For discovering subdomains.
 - **httpx**: To check for live subdomains.
@@ -44,15 +38,15 @@ Shadow Recon is a comprehensive tool designed for vulnerability discovery and ex
 ##### **Step 1**: Install Dependencies
 The tool comes with a script to install all the required tools. Run the following command to install them:
 ```bash
-chmod +x install_tools.sh
-./install_tools.sh
+chmod +x installer.sh
+./installer.sh
 ```
 
 ##### **Step 2**: Run the Main Tool
 After installing the dependencies, you can start the main script by running:
 ```bash
-chmod +x Shadow_Recon.sh
-./Shadow_Recon.sh
+chmod +x ShoRAK_recon.sh
+./ShoRAK_recon.sh
 ```
 
 ##### **Step 3**: Enter the Target Domain
@@ -68,66 +62,5 @@ Once the tool is running, you'll be prompted to enter the domain you want to sca
 - Python 3.
 - GoLang installed.
 
----
 
-### 2. **Uploading to GitHub**
-
-#### **Step 1**: Setting Up GitHub
-- Create an account on [GitHub](https://github.com) if you don’t have one.
-- After logging in, click the "+" button in the top-right corner and select "New repository".
-- Name the repository (e.g., "Shadow-Recon") and add a short description.
-- Set the repository to "Public" for open access.
-- Click "Create repository".
-
-#### **Step 2**: Setting Up Locally
-1. **Install Git** if it’s not already installed:
-   ```bash
-   sudo apt-get install git
-   ```
-
-2. **Initialize a Local Repository**:
-   ```bash
-   git init
-   ```
-
-3. **Add Files to the Repository**:
-   ```bash
-   git add .
-   ```
-
-4. **Commit the Files**:
-   ```bash
-   git commit -m "Initial commit - Added Shadow Recon tool"
-   ```
-
-5. **Link the Local Repository with GitHub**:
-   ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/Shadow-Recon.git
-   ```
-
-6. **Push the Files to GitHub**:
-   ```bash
-   git push -u origin master
-   ```
-
-#### **Step 3**: Create a README.md File
-- In your GitHub repository, create a `README.md` file and add the tool documentation.
-- You can use the following format for the README:
-
-```markdown
-# Shadow Recon
-
-## Description
-Shadow Recon is a comprehensive tool designed for vulnerability discovery and exploitation, tailored for penetration testers and bug bounty hunters...
-
-(Continue with the rest of the documentation here)
-```
-
----
-
-### 3. **Additional Tips**:
-- **Separation of Scripts**: You can include the tool installation script (`install_tools.sh`) and the main tool script (`Shadow_Recon.sh`) in the GitHub repository to keep them organized.
-- **Ensure Easy Usability**: Make sure to provide clear instructions on how to install dependencies and run the tool to make it user-friendly for others.
-- **License**: Add a license file (e.g., MIT License) if you want to allow others to use and modify the tool.
-
-By following these steps, you’ll be able to successfully document and upload your tool to GitHub, making it available for others to use and contribute to.
+https://www.shadowhackr.com
