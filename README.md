@@ -40,6 +40,7 @@ Here’s a complete guide for documenting your tool and uploading it to GitHub:
 ##### **Step 1**: Install Dependencies
 The tool comes with a script to install all the required tools. Run the following command to install them:
 ```bash
+git clone https://github.com/ShadowHackrs/ShoRAK_recon
 chmod +x installer.sh
 ./installer.sh
 ```
