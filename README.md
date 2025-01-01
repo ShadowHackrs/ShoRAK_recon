@@ -67,4 +67,5 @@ Once the tool is running, you'll be prompted to enter the domain you want to sca
 - GoLang installed.
 
 
-https://www.shadowhackr.com
+[https://www.shadowhackr.com
+](https://www.shadowhackr.com/)
